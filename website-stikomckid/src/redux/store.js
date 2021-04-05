@@ -37,11 +37,3 @@ const store = createStore(rootReducer);
 store.subscribe(() => {
 	console.log("store change ", store.getState());
 });
-
-console.log(store.getState());
-// dispatch
-store.dispatch({ type: "add_age", newvalue: 11 });
-
-store.dispatch({ type: "add_value" });
-
-console.log(store.getState());

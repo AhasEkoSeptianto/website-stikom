@@ -61,7 +61,7 @@
 	margin-right: 5px;
 	position: relative;
 	font-weight: 600;
-	cursor: context-menu;
+	cursor: pointer;
 	color: #404040;
 }
 
@@ -115,13 +115,9 @@
 	margin-right: 5px;
 	position: relative;
 	font-weight: 600;
-	cursor: context-menu;
 	color: #404040;
 }
 
-.pmb:hover {
-	cursor: pointer;
-}
 /*end link to pmb*/
 
 /*phone device*/
